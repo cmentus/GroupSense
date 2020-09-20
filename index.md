@@ -6,9 +6,25 @@ Cassidy Mentus, Nishant Shukla, Marty Romeo, Christian DiPaola
 
 **We hope this webpage can be used as a reference for future testing programs. Please cite any documents or presentations on the website if you use them. If you have questions please email cassidy.mentus@gmail.com**
 
+## Website Structure
+In this website you will find:
+* Plans for a work flow using self-administered saliva collection and linking to samples using QR codes designed to protect privacy. We describe an app where lab personnel can track QR code-labeled samples and record + electronically send out results. This is designed for high through-put hassle-free tests and is meant to get academic labs into the front line of testing.  You can read this off this page or click on the link to a pdf/slide deck in the contents. 
+
+* Research: We have researched pooled testing using ddPCR.  Pooled testing occurs in 2 rounds, but we have researched ways to complete testing in **one round** of testing. For example, if one QX200 can test 90 wells in one round, then our method allows it to test **~600** samples in one pooled round followed by confirmatory tests. It is theoretically possible to shorten this to one round (600 people with one round of testing on a machine that normally can only do 90) if we use reconstruction techniques from compressed sensing with Poisson noise.
+
+Our research also estimates the sensitivity at each viral concentration and demonstrates ease of use of our pooling app.
+
+
 ## Contents
+* [Program Details](../../blob/master/GSS-COVID19-program.pdf)
+* [Slide Deck](../../blob/master/GSS-COVID19-program.pdf)
+* Research:
+    * [Recent Research Summary](../../blob/master/grant_summary_8-13.pdf) - Includes introduction to pooled testing. Assay sensitivity analysis using real saliva samples with Poisson regression. Introduction to compressed sensing. 
+    * Compressed sensing using droplet digital PCR. [Technical Paper Draft](https://github.com/cmentus/ddPCR-compressed-sensing/blob/master/PCR_CS_cmentus9-3.pdf) [github for code](https://github.com/cmentus/ddPCR-compressed-sensing)
+    * [Droplet digital PCR assay for COVID-19](https://www.medrxiv.org/content/medrxiv/early/2020/05/11/2020.05.06.20090449.full.pdf)
+    * [Expository paper for basic pooled testing methods](https://www.medrxiv.org/content/medrxiv/early/2020/04/16/2020.04.05.20050245.full.pdf)  We only recommend this binary splitting if groups or 4-8 are used for the sake of turn-around. It is nearly optimal in terms of test-kit usage.
 
-
+# Statement of Purpose
 We provide a streamlined system for COVID-19 testing using the most sensitive RNA-based assay found in academic and CORE research labs, Droplet Digital PCR (ddPCR).  Our system is engineered to solve the problem of testing asymptomatic populations accurately, frequently.  
 	The world is in unique and unprecedented times.  We understand that your needs as a business or community are unique and evolving. We will help craft a customized strategy that fits your needs and can adapt as circumstances require. Our main purpose is to help your organization develop a custom-tailored strategy that balances your unique needs with respect to key components of testing program design:
 
