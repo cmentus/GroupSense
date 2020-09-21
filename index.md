@@ -17,7 +17,7 @@ Our research also estimates the sensitivity at each viral concentration and demo
 
 ## Contents
 * [Program Details](GSS-COVID19-program.pdf)
-* [Slide Deck](GSS-COVID19-program.pdf)
+* [Slide Deck](slide-deck.pdf)
 * Research:
     * [Recent Research Summary](grant_summary_8-13.pdf) - Includes introduction to pooled testing. Assay sensitivity analysis using real saliva samples with Poisson regression. Introduction to compressed sensing. 
     * Compressed sensing using droplet digital PCR. [Technical Paper Draft](https://github.com/cmentus/ddPCR-compressed-sensing/blob/master/PCR_CS_cmentus9-3.pdf) [github for code](https://github.com/cmentus/ddPCR-compressed-sensing)
